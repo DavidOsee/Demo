@@ -1,9 +1,9 @@
-import React from 'react';
+import Profile_UI from "./ui/Profile_ui"
 
 const Profile = () => {
     return (
         <div>
-            Profile
+            <Profile_UI />
         </div>
     );
 }

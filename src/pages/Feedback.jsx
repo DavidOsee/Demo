@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
+import FeedbackUI from './ui/Feedback_ui'
 
 const Feedback = () => {
     return (
         <div>
-            Feedback
+            <FeedbackUI />
         </div>
     );
 }

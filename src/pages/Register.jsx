@@ -1,9 +1,10 @@
 import React from 'react';
+import RegisterUI from './ui/Register_ui'
 
 const Register = () => {
     return (
         <div>
-            Register
+            <RegisterUI />
         </div>
     );
 }

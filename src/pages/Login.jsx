@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
+import LoginUI from './ui/Login_ui';
 
 const Login = () => {
     return (
         <div>
-            Login
+            <LoginUI />
         </div>
     );
 }

@@ -1,12 +1,10 @@
-import React from 'react'
-import { Button } from "@material-tailwind/react";
+
+import HomeUI from './ui/Home_ui'
 
 const Home = () => {
     return (
         <div>
-            <h1 className='text-3xl text-blue-300 bg-blue-100'>Home</h1>
-            <div className=''></div>
-            <Button>Just one</Button>
+            <HomeUI />
         </div>
     );
 }

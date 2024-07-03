@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
+import DashboardUI from './ui/Dashboard_ui'
 
 const Dashboard = () => {
     return (
-        <div>
-            Dashboard
-        </div>
+        <>
+            <DashboardUI />
+        </>
     );
 }
 
